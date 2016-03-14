@@ -110,22 +110,25 @@ The data that is passed from the demo app to Movilizer Client is formatted in a 
 
 ## Testing external events
 
-1. Open registered Movilizer Client on Android device
+- Open registered Movilizer Client on Android device
 
 ![Initial screen - Main Menu](screenshots/movilizer-mainmenu.png) 
 
 If you have sent the request to the cloud and registered successfuly on the client - you should have "External event receive" movelet in your main menu
-2. Open the movelet, that has a subscription and processing MEL code:
+
+- Open the movelet, that has a subscription and processing MEL code:
 
 ![Movelet Listening for external events](screenshots/movilizer-movelet-init.png) 
 
 You should notice that the screen has some default values, that on external event will be populated with the data sent from DEMO app.
-3. Open the DEMO application and hit the "Send" button.
+
+- Open the DEMO application and hit the "Send" button.
 
 ![DEMO Send external event](screenshots/demoApp.png) 
 
 At this step you should receive in the description area return code 1 - this means a successfuly sent and received event
-4. Open Movilizer Client and check the data:
+
+- Open Movilizer Client and check the data:
 
 ![Movilizer received external event](screenshots/movilizer-movelet-after-ee.png) 
 
